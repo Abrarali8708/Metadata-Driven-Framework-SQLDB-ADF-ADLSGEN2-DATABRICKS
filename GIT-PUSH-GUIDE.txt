@@ -1,0 +1,20 @@
+GIT PUSH GUIDE :
+create a dedicated folder with correct name ,
+Drop  file and code you want to push ,
+open terminal,
+
+then following commands :
+git init
+git add .
+git commit -m "Initial commit"
+
+git branch -M main
+
+then you have to create a repository in git , you can use your phone to do so and make it public:
+than simply copy the link of the URL and run the below command with .git extension :
+
+git remote add origin https://github.com/Abrarali8708/Metadata-Driven-Framework-SQLDB-ADF-ADLSGEN2-DATABRICKS.git
+
+git push -u origin main
+
+now CLI will authorize you so choose code option and authorize and push the changes
